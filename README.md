@@ -16,5 +16,6 @@ link (https://goqr.me/api/) . Using our API, you can Create and Read QR code gra
 
 
 # To see the website Live on
-        
+
+         https://siva611.github.io/QR-Code-Generator/      
 

@@ -45,6 +45,26 @@ body {
 button:hover {
     background: #0056b3;
 }
+
+a{
+    display: none; 
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a:hover {
+    background: #0056b3;
+}
+a.download-active{
+    display: inline;
+}
+
 #imgBox{
     width: 200px;
     border-radius: 5px;
@@ -60,6 +80,19 @@ button:hover {
     max-height: 300px;
     margin:10px auto;
     border: 1px solid #d1d1d1;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #333;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 10px;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
 }
 
 .error{
